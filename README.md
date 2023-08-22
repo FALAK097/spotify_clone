@@ -4,7 +4,7 @@
 
 Demo Link - [Spotify](https://spotify-clone-falak097.vercel.app/)
 
-![Spotify](https://github.com/FALAK097/spotify_clone/raw/main/Spotify.PNG)
+![Spotify]()
 
 Welcome to my personal project, a Spotify Clone! This project replicates some of the key features and functionalities of Spotify and is intended to showcase my development skills.
 
@@ -52,19 +52,16 @@ Before you begin, make sure you have the following installed on your system:
   `npm install`
 
 - Create an .env.local file for Supabase and Stripe credentials.
-  
 - Supabase Credentials  
   NEXT_PUBLIC_SUPABASE_URL=https://your-supabase-url.com  
   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anonymous-key  
   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-  
 - Stripe Credentials  
   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key  
   STRIPE_SECRET_KEY=your-stripe-secret-key  
   STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
 
-  
-  You can get these keys from your supabase dashboard or stripe dashboard respectively after creating a new application in their 
+  You can get these keys from your supabase dashboard or stripe dashboard respectively after creating a new application in their
   respective platforms.
 
 - Start the development server:
