@@ -53,7 +53,7 @@ Before you begin, make sure you have the following installed on your system:
 
 - Create an .env.local file for Supabase and Stripe credentials.
 - Supabase Credentials  
-  NEXT_PUBLIC_SUPABASE_URL=<https://your-supabase-url.com>  
+  NEXT_PUBLIC_SUPABASE_URL=your-supabase-url.com
   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anonymous-key  
   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 - Stripe Credentials  
