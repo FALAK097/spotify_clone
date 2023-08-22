@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone
 
-## Getting Started
+## Live Demo
 
-First, run the development server:
+Demo Link - [Spotify](https://spotify-clone-falak097.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![Spotify](https://github.com/FALAK097/spotify_clone/raw/main/Spotify.PNG)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to my personal project, a Spotify Clone! This project replicates some of the key features and functionalities of Spotify and is intended to showcase my development skills.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Introduction
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is a Spotify Clone that I've developed to showcase my skills in building web applications with modern technologies. It closely resembles the design and features of the Spotify music streaming platform.
 
-## Learn More
+## Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- Song upload
+- Stripe integration for premium subscriptions
+- User authentication with Supabase and GitHub integration
+- Audio playback functionality
+- Favorites and playlists system
+- Advanced Player component
+- Stripe recurring payment integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Stripe](https://stripe.com/)
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Before you begin, make sure you have the following installed on your system:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Node.js and npm (Node Package Manager)
+- Git
+- PostgreSQL
+- Stripe account (for integrating Stripe payments)
+
+## Installation
+
+- Clone the repository:
+  `git clone https://github.com/FALAK097/spotify_clone.git`
+
+- Navigate to the project directory:
+  `cd spotify_clone`
+
+- Install dependencies:
+  `npm install`
+
+- Create an .env.local file for Supabase and Stripe credentials.
+  NEXT_PUBLIC_SUPABASE_URL
+  NEXT_PUBLIC_SUPABASE_ANON_KEY
+  SUPABASE_SERVICE_ROLE_KEY
+  NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+  STRIPE_SECRET_KEY
+  STRIPE_WEBHOOK_SECRET
+  You can get these keys from your supabase dashboard or stripe dashboard respectively after creating a new application in their respective platforms.
+
+- Start the development server:
+  `npm run dev`
+
+- Open your browser and visit `http://localhost:3000` to see the Spotify Clone Project up & running.
+
+## Credits
+
+- Project developed by [Falak Gala](https://portfolio-falak.vercel.app/)
+- [React](https://reactjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.io/)
+- [Stripe](https://stripe.com/)
+- Inspired by [Code With Antonio](https://github.com/AntonioErdeljac)
+- Built with [Vite](https://vitejs.dev/)
