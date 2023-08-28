@@ -19,8 +19,8 @@ This project is a Spotify Clone that I've developed to showcase my skills in bui
 - User authentication with Supabase and GitHub integration
 - Audio playback functionality
 - Favorites and playlists system
-- Advanced Player component
-- Stripe recurring payment integration
+- Search songs
+- View Account information and cancel subscriptions
 
 ## Technologies Used
 
@@ -56,7 +56,6 @@ Before you begin, make sure you have the following installed on your system:
   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url.com  
   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anonymous-key  
   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-  
 - Stripe Credentials  
   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key  
   STRIPE_SECRET_KEY=your-stripe-secret-key  
