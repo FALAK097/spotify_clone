@@ -68,13 +68,3 @@ Before you begin, make sure you have the following installed on your system:
   `npm run dev`
 
 - Open your browser and visit `http://localhost:3000` to see the Spotify Clone Project up & running.
-
-## Credits
-
-- Project developed by [Falak Gala](https://portfolio-falak.vercel.app/)
-- [React](https://reactjs.org)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Supabase](https://supabase.io/)
-- [Stripe](https://stripe.com/)
-- Inspired by [Code With Antonio](https://github.com/AntonioErdeljac)
-- Built with [Vite](https://vitejs.dev/)
