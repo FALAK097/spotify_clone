@@ -1,8 +1,6 @@
 # Spotify Clone
 
-## Live Demo
-
-Demo Link - [Spotify](https://spotify-clone-falak097.vercel.app/)
+[SPOTIFY Demo](https://spotify-clone-falak097.vercel.app/)
 
 ![Spotify](https://github.com/FALAK097/spotify_clone/blob/main/screenshot.PNG)
 
